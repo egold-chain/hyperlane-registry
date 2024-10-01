@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x9F4f2A9EeC8216199c3f07Ca661c9afA0dEab53c"
+    chainName: bsc
+    collateralAddressOrDenom: "0x55d398326f99059ff775485246999027b3197955"
+    connections:
+      - token: ethereum|egoldchain|0x50E3408064d7690117988EE3109Cb7C5089871f8
+    decimals: 18
+    name: Tether USD
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0x50E3408064d7690117988EE3109Cb7C5089871f8"
+    chainName: egoldchain
+    connections:
+      - token: ethereum|bsc|0x9F4f2A9EeC8216199c3f07Ca661c9afA0dEab53c
+    decimals: 18
+    name: Tether USD
+    standard: EvmHypSynthetic
+    symbol: USDT

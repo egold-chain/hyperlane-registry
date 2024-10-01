@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://egoldscan.io/api
+    family: blockscout
+    name: eGoldChain Explorer
+    url: https://egoldscan.io
+chainId: 11451
+displayName: eGoldChain
+domainId: 11451
+isTestnet: false
+name: egoldchain
+nativeToken:
+  decimals: 18
+  name: Aurum
+  symbol: XAU
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.egoldchain.com

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xE93Ab0A6E83e5A6Bd9E60b25000401F667c19696"
+    chainName: bsc
+    collateralAddressOrDenom: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+    connections:
+      - token: ethereum|egoldchain|0x3BF71274D7A7A6C4e4bf13399F6268c4730A3a91
+    decimals: 18
+    name: BTCB Token
+    standard: EvmHypCollateral
+    symbol: BTCB
+  - addressOrDenom: "0x3BF71274D7A7A6C4e4bf13399F6268c4730A3a91"
+    chainName: egoldchain
+    connections:
+      - token: ethereum|bsc|0xE93Ab0A6E83e5A6Bd9E60b25000401F667c19696
+    decimals: 18
+    name: BTCB Token
+    standard: EvmHypSynthetic
+    symbol: BTCB
