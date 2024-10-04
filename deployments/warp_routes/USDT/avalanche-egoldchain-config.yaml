@@ -1,0 +1,19 @@
+tokens:
+  - addressOrDenom: "0x361936bCbc2C2Da0B82816D9065AfDaD101A320e"
+    chainName: avalanche
+    collateralAddressOrDenom: "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+    connections:
+      - token: ethereum|egoldchain|0xAa419284905adF24eD1Ae7576AbC6B816E21bce6
+    decimals: 6
+    name: TetherToken
+    standard: EvmHypCollateral
+    symbol: USDt
+  - addressOrDenom: "0xAa419284905adF24eD1Ae7576AbC6B816E21bce6"
+    chainName: egoldchain
+    collateralAddressOrDenom: "0x50E3408064d7690117988EE3109Cb7C5089871f8"
+    connections:
+      - token: ethereum|avalanche|0x361936bCbc2C2Da0B82816D9065AfDaD101A320e
+    decimals: 6
+    name: TetherToken
+    standard: EvmHypCollateral
+    symbol: USDt

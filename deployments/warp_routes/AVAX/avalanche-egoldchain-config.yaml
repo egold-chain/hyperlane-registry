@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xf850293053D071f1Ae7f3425D6E35F1C52f388C5"
+    chainName: avalanche
+    connections:
+      - token: ethereum|egoldchain|0xc1c97dA5b51C5C17677074C79ebb8d9A73e6ea0a
+    decimals: 18
+    name: Avalanche
+    standard: EvmHypNative
+    symbol: AVAX
+  - addressOrDenom: "0xc1c97dA5b51C5C17677074C79ebb8d9A73e6ea0a"
+    chainName: egoldchain
+    connections:
+      - token: ethereum|avalanche|0xf850293053D071f1Ae7f3425D6E35F1C52f388C5
+    decimals: 18
+    name: Avalanche
+    standard: EvmHypSynthetic
+    symbol: AVAX
