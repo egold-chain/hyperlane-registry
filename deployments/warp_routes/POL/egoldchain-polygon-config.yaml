@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x02E34F7faEEc1D1A534c6313F395d4C01628980D"
+    chainName: egoldchain
+    connections:
+      - token: ethereum|polygon|0xf850293053D071f1Ae7f3425D6E35F1C52f388C5
+    decimals: 18
+    name: Polygon Ecosystem Token
+    standard: EvmHypSynthetic
+    symbol: POL
+  - addressOrDenom: "0xf850293053D071f1Ae7f3425D6E35F1C52f388C5"
+    chainName: polygon
+    connections:
+      - token: ethereum|egoldchain|0x02E34F7faEEc1D1A534c6313F395d4C01628980D
+    decimals: 18
+    name: Polygon Ecosystem Token
+    standard: EvmHypNative
+    symbol: POL
+  
